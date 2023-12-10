@@ -8,7 +8,7 @@ export default function PatientsList() {
 
   const fetchPatients = async () => {
     try {
-      const response = await fetch("https://hackathon-app-eight.vercel.app/api/patients");
+      const response = await fetch("https://hackathon-app-1g4z.vercel.app/api/patients");
       const result = await response.json();
       
       setData(result.patients);
