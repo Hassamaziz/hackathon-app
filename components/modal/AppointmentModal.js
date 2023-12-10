@@ -60,7 +60,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("http://localhost:3000/api/appointments", requestOptions)
+fetch("https://hackathon-app-1g4z.vercel.app/api/appointments", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
@@ -159,10 +159,3 @@ fetch("http://localhost:3000/api/appointments", requestOptions)
   );
 }
 
-
-  // const raw = JSON.stringify({
-      //   ...formdata
-      // });
-
-      // "id": appointment._id,
-      // ...formdata
