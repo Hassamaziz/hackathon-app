@@ -32,7 +32,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-await fetch("https://hackathon-app-eight.vercel.app/api/appointments", requestOptions)
+await fetch("https://hackathon-app-1g4z.vercel.app/api/appointments", requestOptions)
  
     } catch (error) {
       console.error("Error adding product:", error.message);
