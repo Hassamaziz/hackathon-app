@@ -37,9 +37,7 @@ const Header = () => {
             </li>
           </ul>
           <form className="d-flex" role="search">
-            <button className="btn btn-outline-danger" type="submit">
-              Sign Out
-            </button>
+         
           </form>
         </div>
       </div>
