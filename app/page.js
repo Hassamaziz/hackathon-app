@@ -1,14 +1,14 @@
 import Header from "@/components/header/Header";
 import LoginButton from "@/components/loginButtons/LoginButton";
-import { getServerSession } from "next-auth";
-import { redirect } from "next/navigation";
+// import { getServerSession } from "next-auth";
+// import { redirect } from "next/navigation";
 
-export default async function Home() {
-  const user = await getServerSession();
-  if (!user) {
-    redirect("/api/auth/signin");
-  }
-  console.log("user", user);
+export default function Home() {
+  // const user = await getServerSession();
+  // if (!user) {
+  //   redirect("/api/auth/signin");
+  // }
+  // console.log("user", user);
 
   return (
     <div>
