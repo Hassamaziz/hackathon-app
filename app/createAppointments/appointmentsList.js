@@ -13,7 +13,7 @@ export default function AppointmentsList() {
     
 const fetchAppointments = async()=>{
 
-    const response = await fetch("http://localhost:3000/api/appointments")
+    const response = await fetch("https://hackathon-app-eight.vercel.app/api/appointments")
     const result = await response.json()
     setData(result.appointments);
 }
